@@ -1,0 +1,37 @@
+{
+  "note": "Angular Seed Mock",
+  "mockDirectory": "mock/json/",
+  "allowedDomains": [
+    "*"
+  ],
+  "allowedHeaders": [
+    "Content-Type",
+    "Authorization",
+    "WWW-Authenticate",
+    "X-Requested-With"
+  ],
+  "port": "7878",
+  "quiet": false,
+  "latency": 20,
+  "webServices": {
+    "api/types/:typeName": {
+      "verbs": [
+        "GET"
+      ],
+      "switch": "typeName",
+      "responses": {
+        "get": {
+          "mockFile": "web.json"
+        }
+      },
+      "switchResponses": {
+        "typeNamedesign": {
+          "mockFile": "design.json"
+        },
+        "typeNameweb": {
+          "mockFile": "web.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": 200,
+  "data": [
+    "webpack",
+    "karma",
+    "angular",
+    "es2015",
+    "babel",
+    "eslint",
+    "esdoc",
+    "jasmine",
+    "apimocker"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extends": ["airbnb/base", "angular"],
+  "rules": {
+    "angular/no-service-method": 0,
+    "comma-dangle": [0, "never"],
+    "curly": [2, "all"],
+    "func-names": 0,
+    "indent": [2, 2],
+    "max-len": [1, 120],
+    "no-console": 1,
+    "no-tabs": 0,
+    "no-param-reassign": 0,
+    "no-use-before-define": 0,
+    "padded-blocks": 0
+  },
+  "parser": "babel-eslint",
+  "env": {
+    "node": true,
+    "browser": true,
+    "jasmine": true,
+    "es6": true
+  }
+}

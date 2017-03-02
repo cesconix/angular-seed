@@ -1,0 +1,6 @@
+{
+  "source": "./src/app",
+  "destination": "./docs",
+  "excludes": ["\\.spec.js$"],
+  "unexportIdentifier": true
+}
