@@ -4,7 +4,7 @@
   "license": "See LICENSE file",
   "version": "0.0.1",
   "description": "Angular Seed",
-  "author": "Francesco Pasqua <francesco.pasqua@h-farm.com>",
+  "author": "Francesco Pasqua <cesconix@me.com>",
   "scripts": {
     "serve": "cross-env API_SERVER=production webpack-dev-server",
     "serve:dev": "concurrently --kill-others \"cross-env API_SERVER=development webpack-dev-server\" \"npm run mock\"",
